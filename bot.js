@@ -29,7 +29,7 @@ bot.on(message("text"), async (ctx) => {
 
     const questionObject = {
       id: tgRes.message_id,
-      gptDialogBranch: gptResp.id,
+      gptDialogBranch: gptResp.id
     }
 
     JSON.stringify(questionObject)
