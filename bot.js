@@ -107,6 +107,7 @@ bot.on(message("text"), async (ctx) => {
   }
 });
 
+console.log(123)
 bot.launch();
 
 // Enable graceful stop
