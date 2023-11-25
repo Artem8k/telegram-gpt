@@ -9,7 +9,7 @@ const bot = new Telegraf(process.env.BOT_KEY ?? "");
 const gptApi = new ChatGPTAPI({
   apiKey: process.env.OPENAI_API_KEY ?? "",
   completionParams: {
-    temperature: 0.2,
+    temperature: 0.2
   }
 })
 
